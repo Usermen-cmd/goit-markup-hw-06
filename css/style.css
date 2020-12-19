@@ -448,12 +448,14 @@ button,
   margin-bottom: 20px;
 }
 /* footer form */
+.footer-form {
+  display: flex;
+}
 .footer-form-input {
   padding: 15px;
   width: 358px;
   margin-right: 12px;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: var(--secondary-bg-color);
@@ -625,9 +627,7 @@ button,
   text-decoration: underline;
 }
 .check-box-label {
-  text-align: center;
   font-family: var(--primery-font);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: var(--p-color);
